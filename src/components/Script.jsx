@@ -3,12 +3,18 @@ import { useState, useEffect } from "react";
 import { copy, linkIcon, loader, tick } from "../assets";
 
 const Script = () => {
+  const [article, setArticle] = useState({ url: "", summary: "" });
+
+  const handleSubmit = async (e) => {
+    alert("Submitted");
+  };
+
   return (
     <section className="mt-16 w-full max-w-xl">
       <div className="flex felx-col w-full gap-2">
         <form
           className="relative felx justify-center items-center"
-          onSubmit={(e) => {}}
+          onSubmit={handleSubmit}
         >
           <img
             src={linkIcon}
@@ -17,9 +23,11 @@ const Script = () => {
           />
           <input
             type="url"
-            placeholder="Enter a url"
-            value=""
-            onChange={() => {}}
+            placeholder="enter a url"
+            value={article.url}
+            onChange={(e) => {
+              setArticle({ ...article, url: e.target.value });
+            }}
             required
             className="url_input peer"
           ></input>
