@@ -31,9 +31,9 @@ const Script = () => {
 
   return (
     <section className="mt-16 w-full max-w-xl">
-      <div className="flex felx-col w-full gap-2">
+      <div className="flex flex-col w-full gap-2">
         <form
-          className="relative felx justify-center items-center"
+          className="relative flex justify-center items-center"
           onSubmit={handleSubmit}
         >
           <img
@@ -43,7 +43,7 @@ const Script = () => {
           />
           <input
             type="url"
-            placeholder="enter a url"
+            placeholder="Enter a URL"
             value={article.url}
             onChange={(e) => {
               setArticle({ ...article, url: e.target.value });
@@ -92,7 +92,7 @@ const Script = () => {
         ) : (
           article.summary && (
             <div className="flex flex-col gap-3">
-              <h2 className="font-satoshi font-bold text-gray-600">
+              <h2 className="font-satoshi font-bold text-white">
                 Article <span className="blue_gradient">Summary</span>
               </h2>
               <div className="summary_box">
