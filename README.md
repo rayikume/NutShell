@@ -2,7 +2,7 @@
 
 ## Description
 
-**NutShell** uses the power of ChatGPT-4 to deliver quick and precise summaries of any article or website. Simply enter the URL, and NutShell will condense the content for you in seconds. Save time and get the information you need effortlessly. Built using React framework, Redux toolkit, and Tailwind.
+**NutShell** uses the power of ChatGPT-4 to deliver quick and precise summaries of any article or website. Simply enter the URL, and NutShell will condense the content for you in seconds to get the information you need effortlessly. Built using React framework, Redux toolkit, and Tailwind.
 
 API used: [Article Extractor and Summarizer](https://rapidapi.com/restyler/api/article-extractor-and-summarizer?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=referral&utm_campaign=DevRel)
 
