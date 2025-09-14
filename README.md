@@ -8,7 +8,7 @@ API used: [Article Extractor and Summarizer](https://rapidapi.com/restyler/api/a
 
 ## Installation
 
-To set up the project locally
+To set up the project locally:
 
 - Clone the repository: `https://github.com/rayikume/nutshell.git`
 - Navigate to the project directory: `cd nutshell`
