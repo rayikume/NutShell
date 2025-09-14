@@ -6,6 +6,9 @@
 
 API used: [Article Extractor and Summarizer](https://rapidapi.com/restyler/api/article-extractor-and-summarizer?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=referral&utm_campaign=DevRel)
 
+## Website Preview
+![webscreenshot.png](https://github.com/rayikume/nutshell/blob/3101a64d7c719c775047594a1b4ba0cbddc441e5/public/screenshotweb.png?raw=true)
+
 ## Installation
 
 To set up the project locally:
@@ -14,6 +17,3 @@ To set up the project locally:
 - Navigate to the project directory: `cd nutshell`
 - Install dependencies: `npm install`
 - Run the application: `npm run dev`
-
-## Website Preview
-![webscreenshot.png](https://github.com/rayikume/nutshell/blob/3101a64d7c719c775047594a1b4ba0cbddc441e5/public/screenshotweb.png?raw=true)
